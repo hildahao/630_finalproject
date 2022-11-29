@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Footer from './Footer';
 import { createRoot } from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
@@ -30,7 +31,7 @@ chart5.render(
 const footer = ReactDOM.createRoot(document.getElementById('footer'));
 footer.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <Footer />
   </React.StrictMode>
 );
 
