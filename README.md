@@ -18,14 +18,14 @@ Except for these questions, we will also study the influence of Wikipedia's read
 In this version, you can see:<br/>
 1. A web page(I really love its style);<br/>
 2. A bar chart using the example from chart.js library;<br/>
-3. We will add 2 more charts using the D3 library later;<br/>
+3. My pair, Mrunal, did 2 charts using D3 library, and we will add these 2 to the page;<br/>
 
 ## What I did
 1. Design the webpage with Figma. Check it [here](https://www.figma.com/file/vx8p2yPTd8wEGsC64z125G/INST-630%3A-Pantheon?node-id=0%3A1&t=f8syhoggwYfLJdj1-1)
 2. Finished the css code of the web page
 3. Finished one bar chart and imported it into the react framework
 <br/>
-I tried to upload the project into Glitch(https://glitch.com/edit/#!/sunny-royal-elm), but when I want to review it, it just kept "Starting…". Therefore, I made the recording(https://drive.google.com/drive/folders/11NUE_PQy0CUXOFr4ct6jBkMkRk1tDKqX?usp=share_link) of the project. Welcome to check!
+I tried to upload the project into Glitch(https://glitch.com/edit/#!/sunny-royal-elm), but when I reviewed it, it just kept "Starting…". Therefore, I made the recording(https://drive.google.com/drive/folders/11NUE_PQy0CUXOFr4ct6jBkMkRk1tDKqX?usp=share_link) of the project. Welcome to check!
 
 ## Other
 I love the background picture, it comes from "https://philippines.michiganintheworld.history.lsa.umich.edu/s/exhibit/page/the-barbour-scholarship". People  in this photo are female scholars from Asia 100 years ago. As I gazed at them, I could feel the courage and determination that had crossed time and space.
