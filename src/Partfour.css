@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+
+.holder{
+    background-color: #F0EAE5;
+    height: 1000px;
+    width:100%;
+}
+
+.biaoming{
+  font-weight:600;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.biaoming h2{
+   font-size: 2vw;
+   margin-top: 70px;
+}
+
+.jieshi{
+    width: 600px;
+    line-height: 1.5;
+    font-family: 'Public Sans', sans-serif; 
+    font-weight:300;
+    font-size: 16px;
+    color:#333333;
+    text-align: left;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#chartFour{
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+
+}
