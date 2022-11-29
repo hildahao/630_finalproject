@@ -1,4 +1,4 @@
-#The 2nd draft of Final Project
+# The 2nd draft of Final Project
 
 In this version, you can see:<br/>
 1. A beautiful web page style(we think it is beautiful);<br/>
