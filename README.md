@@ -21,7 +21,7 @@ In this version, you can see:<br/>
 3. We will add 2 more charts using the D3 library later;<br/>
 
 ## What I did
-1. Design the webpage with Figma
+1. Design the webpage with Figma. Check it ![here](https://www.figma.com/file/vx8p2yPTd8wEGsC64z125G/INST-630%3A-Pantheon?node-id=0%3A1&t=f8syhoggwYfLJdj1-1)
 2. Finished the css code of the web page
 3. Finished one bar chart and imported it into the react framework
 
