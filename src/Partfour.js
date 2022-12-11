@@ -10,7 +10,7 @@ function Disi() {
       </div>
 
       <div className="biaoming">
-          <h2>The Top 10 occupations of females in Top 1000</h2>
+          <h2>Occupations of females in Top 1000</h2>
       </div>
 
       <div id="chartFour">

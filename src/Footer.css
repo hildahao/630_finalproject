@@ -1,6 +1,6 @@
 .footer{
     background-color: #222222; 
-    height: 200px;
+    height: 250px;
     width:100%;
     margin: 0px;
 }
@@ -9,7 +9,7 @@
     color: white;
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-align: center;
     padding-top: 20px;
 }

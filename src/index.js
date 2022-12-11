@@ -16,9 +16,9 @@ root.render(
 
 const chart4 = ReactDOM.createRoot(document.getElementById('chart4'));
 chart4.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 const chart5 = ReactDOM.createRoot(document.getElementById('chart5'));

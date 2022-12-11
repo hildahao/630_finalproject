@@ -1,0 +1,103 @@
+.daholder{
+    background-color: #F0EAE5;
+    height: 2500px;
+    width:100vw;
+    margin: auto;
+}
+
+.jieshi1{
+    width: 606px;
+    line-height: 1.5;
+    font-family: 'Public Sans', sans-serif; 
+    font-weight:300;
+    font-size: 16px;
+    color:#333333;
+    text-align: left;
+    margin: auto;
+    padding-top: 70px;
+}
+
+#chartOne{
+    width: 609px;
+    height: 96px;
+    margin: auto;
+    /* margin-left: 31vw; */
+    margin-top:50px;
+}
+
+
+.con span.Up{
+    display: block;
+    float: left;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 96px;
+    color:#D3C5BB;
+    font-weight: 1000;
+    margin-left: 10px;
+}
+
+.con span.Up2{
+    display: block;
+    float: left;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 96px;
+    color:#D3C5BB;
+    font-weight: 1000;
+}
+
+.con p{
+    /* padding-left: 40px; */
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.con1{
+    font-weight:600;
+    color: #4C4643;
+    font-size: 32px;
+    padding-left: 30px;
+}
+
+.con2{
+    font-weight:600;
+    color: #4C4643;
+    font-size: 22px;
+    padding-left: 30px;
+}
+
+.con3{
+    color: #4C4643;
+    font-size: 16px;
+    font-family: 'Public Sans', sans-serif;
+    padding-left: 30px;
+    display:flow-root;
+}
+
+.con1-2{
+    font-weight:600;
+    color: #4C4643;
+    font-size: 32px;
+    padding-left: 20px;
+}
+
+.con2-2{
+    font-weight:600;
+    color: #4C4643;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.con3-2{
+    color: #4C4643;
+    font-size: 16px;
+    font-family: 'Public Sans', sans-serif;
+    padding-left: 20px;
+    display:flow-root;
+}
+
+#DOne{
+    width:800px;
+    height:800px;
+    background-color: rgb(85, 85, 85);
+    margin-top: 50px;
+}

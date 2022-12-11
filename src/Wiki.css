@@ -1,0 +1,63 @@
+.holder2{
+    background-color: #F0EAE5;
+    height: 1350px;
+    width:100vw;
+}
+
+.shangquote{
+ margin: auto;
+ text-align: center;
+ margin-left: -580px;
+ margin-top: 20px;
+}
+
+.refer{
+    width: 500px;
+    line-height: 1.5;
+    font-family: 'Public Sans', sans-serif; 
+    font-weight:300;
+    font-size: 16px;
+    color:#666666;
+    text-align: left;
+    margin: auto;
+}
+
+.xiaquote{
+    margin: auto;
+    text-align: center;
+    margin-left: 580px;
+   }
+
+#chartFive{
+    width: 605px;
+    height: 150px;
+    margin: auto;
+    /* margin-left: 31vw; */
+    margin-top:50px;
+}
+
+.legend{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.legend span{
+    margin: 0px;
+}
+
+.legend #female{
+    float:left;
+}
+
+.legend #male{
+    color: rgb(173, 159, 150);
+    float:right;
+}
+
+.con{
+    width:600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: auto;
+}
