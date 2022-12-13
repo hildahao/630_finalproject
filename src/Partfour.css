@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -6,7 +7,7 @@
 
 .holder{
     background-color: #F0EAE5;
-    height: 1150px;
+    height: 1300px;
     width:100vw;
 }
 
@@ -24,25 +25,38 @@
 
 #chartFour{
   width: 100%;
-  margin: auto;
+  height:27vw;
+  margin: 0px;
   margin-top: 50px;
   padding: 0;
+  text-align: center;
 }
 
 #chartFour canvas{
-height:450px !important;
-width: 80vw !important;
+  /* height:460px !important;  */
+  width:80% !important;
+  }
+
+#chartFour canvas.style{
+/* height:600px !important;  */
+width:1200px !important;
 }
 
+
 .jieshi{
-    width: 606px;
+    width: 680px;
     line-height: 1.5;
     font-family: 'Public Sans', sans-serif; 
     font-weight:300;
-    font-size: 16px;
+    font-size: 18px;
     color:#333333;
     text-align: left;
     margin: auto;
     margin-top: 50px;
 }
+
+.zkong{
+  height:50px;
+}
+
 

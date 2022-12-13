@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+.holder3{
+    height:500px;
+    background-color: #F0EAE5;
+}
+
+.des{
+    margin: auto;
+    margin-top: 50px;
+    width: 680px;
+  }
+
+  #intro{
+    /* background-color: rgba(34, 34, 34, 0.7); */
+    font-family: 'Public Sans', sans-serif;
+    /* font-family: Abhaya Libre,sans-serif; */
+    font-size: 18px;
+    font-weight:300;
+    color:#333333;
+    line-height: 1.5;
+    /* letter-spacing: 1.2px; */
+  }
+
+  #intro a{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#intro a:hover {
+    color:#756A64; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

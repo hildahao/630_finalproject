@@ -2,14 +2,24 @@ import React from "react";
 import * as d3 from "d3";
 import {useRef } from "react";
 
-const BubbleChart = ({person_data}) =>{
-  console.log(person_data);
 
+
+const BubbleChart = ({person_data}) =>{
+
+  var datasort = person_data.sort((a, b) => {
+    return b.hpi - a.hpi // sort the original dataset by the value of hpi -> a.age - b.age
+     })
+     console.log(datasort);
+
+     var datatop = datasort.slice(0,1000); // now get the top 1000
+
+
+  
     const d3ref = useRef();
 
     let countrycount = new Map();
 
-    person_data.map(x => {
+    datatop.map(x => {
       if (x.gender === 'F') {
         let count = countrycount.get(x.bplace_country);
         if ( count ) {
@@ -21,11 +31,12 @@ const BubbleChart = ({person_data}) =>{
         }
       }
     });
-
-    console.log(countrycount);
+  
 
     const country_count_array = Array.from(countrycount, ([id, value]) => ({ id, value }));
     console.log(country_count_array);
+
+  
 
     for(var i = 0; i< country_count_array.length; i++)
     {
@@ -34,15 +45,17 @@ const BubbleChart = ({person_data}) =>{
        }
     }
 
+  
 
-
+   
+  
   const chart = d3BubbleChart(country_count_array, {
     label: d => [...d.id.split(".").pop().split(/(?=[A-Z][a-z])/g), d.value.toLocaleString("en")].join("\n"),
     value: d => d.value,
     group: d => d.id.split(".")[1],
     title: d => `${d.id}\n${d.value.toLocaleString("en")}`,
     link: d => `https://github.com/prefuse/Flare/blob/master/flare/src/${d.id.replace(/\./g, "/")}.as`,
-    width: 1152
+    width: 800,
   })
 
 
@@ -57,17 +70,17 @@ function d3BubbleChart(data, {
     title, // given d in data, returns text to show on hover
     link, // given a node d, its link (if any)
     linkTarget = "_blank", // the target attribute for links, if any
-    width = 640, // outer width, in pixels
+    width = 800, // outer width, in pixels
     height = width, // outer height, in pixels
-    padding = 3, // padding between circles
-    margin = 10, // default margins
+    padding = 15, // padding between circles
+    margin = 5, // default margins
     marginTop = margin, // top margin, in pixels
     marginRight = margin, // right margin, in pixels
     marginBottom = margin, // bottom margin, in pixels
     marginLeft = margin, // left margin, in pixels
     groups, // array of group names (the domain of the color scale)
     colors = d3.schemeTableau10, // an array of colors (for groups)
-    fill = "#ccc", // a static fill color, if no group channel is specified
+    fill = "#C0AC9D", // a static fill color, if no group channel is specified
     fillOpacity = 0.7, // the fill opacity of the bubbles
     stroke, // a static stroke around the bubbles
     strokeWidth, // the stroke width around the bubbles, if any
@@ -103,7 +116,7 @@ function d3BubbleChart(data, {
         .attr("height", height)
         .attr("viewBox", [-marginLeft, -marginTop, width, height])
         .attr("style", "max-width: 100%; height: auto; height: intrinsic;")
-        .attr("fill", "currentColor")
+        .attr("fill", "#333333")
         .attr("font-size", 10)
         .attr("font-family", "sans-serif")
         .attr("text-anchor", "middle");

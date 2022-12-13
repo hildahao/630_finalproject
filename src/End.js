@@ -5,24 +5,21 @@ const End = () => {
   return (
     <div className ="holder">
        <div className="subtitlebg">
-          <p className="subtitle1">At the end</p>
+          <p className="subtitle1">Conclusion & Reflection</p>
        </div>
 
        <div className="jieshi1">
         <p>
-        From the chart, we found that in X there are the most women. add some introductions 
-        to this and try to explain why there are more females have this occupation. The
-        crazy fox jumped over the lazy dog. The crazy fox jumped over the lazy dog The 
-        crazy fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy
-        fox jumped over the lazy dog The crazy fox jumped over the lazy dog. The crazy fox 
-        jumped over the lazy dog. The crazy fox jumped over the lazy dog The crazy fox jumped 
-        over the lazy dog The crazy fox jumped over the lazy dog The crazy fox jumped over the
-        lazy dog The crazy fox jumped over the lazy dog. The crazy fox jumped over the lazy dog.
-        The crazy fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy 
-        fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy fox jumped 
-        over the lazy dog. The crazy fox jumped over the lazy dog. 
+        In this project, we found the absence of women in Wikipedia's list. We tried to 
+        analyze it from various perspectives, including history, social background, 
+        occupation, and Wikipedia readership characteristics, to provide acceptable 
+        explanations and insights into women's presence and absence. But again, the 
+        source of the data for this project is the pageviews of English Wikipedia. 
+        <strong> This data is inherently biased: it represents the reading tendencies of English-speaking 
+        readers and may carry a more male perspective.</strong>  
         </p>
-      </div> 
+      </div>
+
 
       <div className ="photo">
         <div id="photo" title="Barbour Scholars 1929-1930">
@@ -38,6 +35,15 @@ const End = () => {
           </span>
         </a>
 
+        <div className="jieshi1">
+        <p>
+        It is hard to imagine that more than 100 years ago, I, as a woman, was not even qualified to walk into a university and stand alongside men on an equal footing for higher education. Gender equality is a topic that is always evolving. It has been a tortuous process, and it may even be regressive. But I believe that with the persistence of generations of feminists, its future will be bright.
+        <br/><br/>
+        People in this photo are female scholars from Asia 100 years ago. 
+        When gazing at them, I could feel the courage and determination that 
+        had crossed time and space.  
+        </p>
+      </div> 
 
       </div>
     </div>

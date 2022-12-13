@@ -14,12 +14,7 @@ const Wiki = () => {
 
       <div className="jieshi1">
         <p>
-        From the chart, we found that in X there are the most women. add some introductions 
-        to this and try to explain why there are more females have this occupation. The
-        crazy fox jumped over the lazy dog. The crazy fox jumped over the lazy dog The 
-        crazy fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy
-        fox jumped over the lazy dog The crazy fox jumped over the lazy dog. The crazy fox 
-        jumped. 
+        Our data are from Wikipedia, and a study in 2021 pointed out that：
         </p>
       </div>
 
@@ -32,10 +27,8 @@ const Wiki = () => {
 
       <div className="refer">
         <p>
-        <em>From the chart, we found that in X there are the most women. add some introductions 
-        to this and try to explain why there are more females have this occupation. The
-        crazy fox jumped over the lazy dog. The crazy fox jumped over the lazy dog The 
-        crazy fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy.
+        <em>
+        …men were more likely to read biographies of men than women were, whereas women were more likely to read biographies of women than men were.
         </em>
         </p>
       </div>
@@ -48,9 +41,7 @@ const Wiki = () => {
 
       <div className="jieshi">
         <p>
-        From the chart, we found that in X there are the most women. add some introductions 
-        to this and try to explain why there are more females have this occupation. The
-        crazy fox:
+        This gender difference reminds us that the <strong>gender ratio of English Wikipedia readers may have an impact on the results of the data</strong>. Therefore, we collected information to obtain the gender ratio of English Wikipedia readers：
         </p>
       </div>
 
@@ -64,8 +55,7 @@ const Wiki = () => {
 
       <div className="jieshi">
         <p>
-        From the chart, we found that in X there are the most women. add some introductions 
-        to this:
+        In addition, in some studies they mentioned that:
         </p>
       </div>
 
@@ -77,10 +67,12 @@ const Wiki = () => {
 
       <div className="refer">
         <p>
-        <em>From the chart, we found that in X there are the most women. add some introductions 
-        to this and try to explain why there are more females have this occupation. The
-        crazy fox jumped over the lazy dog. The crazy fox jumped over the lazy dog The 
-        crazy fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy.
+        <em>
+          English-language Wikipedia contains more than 1.5 million biographies about 
+          notable writers, inventors, and academics, but less than 19% of these biographies 
+          are about women……this article demonstrates that biographies about women who meet 
+          Wikipedia’s criteria for inclusion are more frequently considered non-notable and 
+          nominated for deletion compared to men’s biographies. 
         </em>
         </p>
       </div>

@@ -5,11 +5,18 @@ import {useRef } from "react";
 
 const ScatterPlot = ({person_data}) =>{
 
+  var datasort = person_data.sort((a, b) => {
+    return b.hpi - a.hpi // sort the original dataset by the value of hpi -> a.age - b.age
+     })
+  //  var datatop = datasort.slice(0,1000); // now get the top 1000
+
+   console.log(datasort);
+
   const d3ref = useRef();
 
   let womenhistory = new Map();
 
-  person_data.map(x => {
+  datasort.map(x => {
     if (x.gender === 'F') {
       let count = womenhistory.get(x.birthyear);
         if ( count ) {
@@ -25,6 +32,8 @@ const ScatterPlot = ({person_data}) =>{
     const women_history_array = Array.from(womenhistory, ([id, value]) => ({ id, value }));
     console.log(women_history_array);
 
+   
+
 
   // Copyright 2021 Observable, Inc.
   // Released under the ISC license.
@@ -32,18 +41,18 @@ const ScatterPlot = ({person_data}) =>{
   const d3ScatterPlot =(data, {
     x = ([x]) => x, // given d in data, returns the (quantitative) x-value
     y = ([,y]) => y, // given d in data, returns the (quantitative) y-value
-    r = 3, // (fixed) radius of dots, in pixels
+    r = 5, // (fixed) radius of dots, in pixels
     title, // given d in data, returns the title
     marginTop = 20, // top margin, in pixels
-    marginRight = 100, // right margin, in pixels
-    marginBottom = 30, // bottom margin, in pixels
-    marginLeft = 200, // left margin, in pixels
-    inset = r * 2, // inset the default range, in pixels
+    marginRight = 50, // right margin, in pixels
+    marginBottom = 20, // bottom margin, in pixels
+    marginLeft = 50, // left margin, in pixels
+    inset = r * 4, // inset the default range, in pixels
     insetTop = inset, // inset the default y-range
     insetRight = inset, // inset the default x-range
     insetBottom = inset, // inset the default y-range
     insetLeft = inset, // inset the default x-range
-    width = 640, // outer width, in pixels
+    width = 900, // outer width, in pixels
     height = 400, // outer height, in pixels
     xType = d3.scaleLinear, // type of x-scale
     xDomain, // [xmin, xmax]
@@ -55,11 +64,11 @@ const ScatterPlot = ({person_data}) =>{
     yLabel, // a label for the y-axis
     xFormat, // a format specifier string for the x-axis
     yFormat, // a format specifier string for the y-axis
-    fill = "none", // fill color for dots
-    stroke = "currentColor", // stroke color for the dots
-    strokeWidth = 1.5, // stroke width for dots
-    halo = "#fff", // color of label halo 
-    haloWidth = 3 // padding around the labels
+    fill = "#CDBFB6", // fill color for dots
+    stroke = "#333333", // stroke color for the dots
+    strokeWidth = 1, // stroke width for dots
+    halo = "#333333", // color of label halo 
+    haloWidth = 10, // padding around the labels
   } = {}) =>
   {
     // Compute values.
@@ -75,7 +84,7 @@ const ScatterPlot = ({person_data}) =>{
     // Construct scales and axes.
     const xScale = xType(xDomain, xRange);
     const yScale = yType(yDomain, yRange);
-    const xAxis = d3.axisBottom(xScale).ticks(width / 80, xFormat);
+    const xAxis = d3.axisBottom(xScale).ticks(width / 120, xFormat);
     const yAxis = d3.axisLeft(yScale).ticks(height / 50, yFormat);
 
     const svg = d3.select(d3ref.current)
@@ -163,7 +172,6 @@ const ScatterPlot = ({person_data}) =>{
       <svg ref={d3ref} />
     </div> 
   )
-}
-  
+} 
 
 export default ScatterPlot;

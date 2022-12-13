@@ -8,25 +8,29 @@ function Header() {
           
           {/* <img src={bg} alt="bg" id="bg"/> */}
             <div className="App-header">
-            <p className ='date'>12/2022</p>
+            <p className ='date'><span><em>For the women who must not be forgotten</em></span>
+            <span id="riqi"><em>12/12/2022</em></span>
+            </p>
             <p className="bigtitle">
-            Who won their places <br/>in the pantheon of Wikipedia? 
-            <br/>And who holds them up to the altar?
+            <span id="name">THE ABSENT WOMEN: </span>
+            <br/>
+            <em>the gender data gap <br/>in the PANTHEON OF WIKIPEDIA</em>
             </p>
+            
+            
 
-            <p className="des">
-              The crazy fox jumped over the lazy dog. 
-              The crazy fox jumped over the lazy dog The crazy<br/>
-              fox jumped over the lazy dog The crazy fox jumped 
-              over the lazy dog The crazy fox jumped <br/>over the lazy
-              dog The crazy fox jumped over the lazy dog
-            </p>
+            <div className="kongs"></div>
+
+            <div className="dizhu">
+              <span>A visual essay about the famous female figures in the database of Wikipedia</span>
+            </div>
+
+            <div className="kongs"></div>
+
             </div>
       </div>
 
-      <div className="subtitlebg">
-          <p className="subtitle1">Q1: Who are in the pantheon of Wikipedia? </p>
-      </div>
+      
       
     </div>
   );

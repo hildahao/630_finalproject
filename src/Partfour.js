@@ -17,19 +17,20 @@ function Disi() {
       <Bar />
       </div>
 
+      <div className="zkong"></div>
+
       <div className="jieshi">
         <p>
-        From the chart, we found that in X there are the most women. add some introductions 
-        to this and try to explain why there are more females have this occupation. The
-        crazy fox jumped over the lazy dog. The crazy fox jumped over the lazy dog The 
-        crazy fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy
-        fox jumped over the lazy dog The crazy fox jumped over the lazy dog. The crazy fox 
-        jumped over the lazy dog. The crazy fox jumped over the lazy dog The crazy fox jumped 
-        over the lazy dog The crazy fox jumped over the lazy dog The crazy fox jumped over the
-        lazy dog The crazy fox jumped over the lazy dog. The crazy fox jumped over the lazy dog.
-        The crazy fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy 
-        fox jumped over the lazy dog The crazy fox jumped over the lazy dog The crazy fox jumped 
-        over the lazy dog. The crazy fox jumped over the lazy dog. 
+        This graph shows the occupational distribution of women. As can be seen from the 
+        table, the top five occupations are: 
+          Politician,
+          Companion,
+          Writer,
+          Religious figure,
+          and Actor.
+        <br/><br/>
+        Attention to a profession does not determine whether the profession is good or bad. However, <strong>it does reflect the inclinations and preferences of those who read it</strong>. In this chart, female politicians occupy the first place. In fact, the attention of politicians is not related to gender. Politicians are also in first place in a similar ranking of male celebrities. This may be because politicians have wide popularity, while female politicians, being rarer, may get more coverage and attention. One thing to acknowledge, however, is that most people may not follow politicians out of interest in politics but perhaps out of interest in celebrity gossip. This may be more evident with female politicians (e.g., people may be more interested in female politicians' marital and private lives).
+         
         </p>
       </div>
 

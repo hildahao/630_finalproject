@@ -5,8 +5,8 @@ function Footer() {
   return(
     <div className="footer">
         <br/>
-        <p><strong>Developers: Mrunal & Hilda </strong></p>
-        <p><strong>Web Designers: Hilda </strong></p>
+        <p><strong>Code & Data: Hilda & Mrunal  </strong></p>
+        <p><strong>Story & Web Design: Hilda </strong></p>
         <br/><br/>
         <p>API: https://api.pantheon.world
         </p>
